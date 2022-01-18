@@ -11,6 +11,9 @@ ro.config.low_ram=false
 # Incremental FS
 ro.incremental.enable=1
 
+# Shutdown
+ro.build.shutdown_timeout=2
+
 # IORap
 persist.device_config.runtime_native_boot.iorap_readahead_enable=true
 
